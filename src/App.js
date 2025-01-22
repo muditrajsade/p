@@ -7,7 +7,7 @@ function App() {
 
   let f = async ()=>{
 
-    let rg = await fetch('http://localhost:8000/',
+    let rg = await fetch('https://dpltest.vercel.app/',
       {
           method: 'POST',
           headers: {
